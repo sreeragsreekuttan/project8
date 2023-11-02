@@ -1,0 +1,127 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Nosifer&family=Poppins:ital,wght@0,500;1,300;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Merriweather:wght@900&family=Nosifer&family=Poppins:ital,wght@0,500;1,300;1,700&display=swap');
+
+body{font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+*{
+    margin:0 ;
+    padding: 0;
+    
+}
+
+
+.main{
+    width: 100%;
+    height: 800px;
+    background: url(pic/fuji-gfx-extension-tubes-3-1024x\ \(2\).jpg);
+
+
+}
+ 
+.header{
+    position: sticky;
+    top: 0;
+
+}
+.text{
+    color: aliceblue;
+    margin-top: 90px;
+    margin-left:9cqmax;
+}
+.login{
+    width: 390px;
+    height: 480px;
+    background-color:rgb(218, 230, 205,0.3);
+    margin-top: 150px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+
+
+}
+@media all and (min-width:400px) {
+    .login{
+        margin-top: 90px;
+        margin-left:50px ;
+    }
+    
+}
+
+.login h1{
+    color: rgba(216, 18, 51, 0.822);
+    padding-left:140px;
+    border-bottom: 3px solid rgb(184, 23, 23);
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    
+        
+}
+.login form input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    color: aliceblue;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.login form label{
+    padding-top: 15px;
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+ .login form .sub{
+    margin-top: 23px;
+    margin-left: 80px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    color: aliceblue;
+    
+}
+.login form a{
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    left: 105px;
+
+
+}
+.text h1{
+    color: blue;
+}
+
+    
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    
+}
+.text h6{
+    padding-left: 400px;
+}
+@media all and (max-width:800px) {
+     .text h6{
+        padding-left: 15px;
+        padding-bottom: 50px;
+    }
+    
+}
